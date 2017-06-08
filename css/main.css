@@ -1,0 +1,31 @@
+/* Custom
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+.aside { font-size: .9rem; letter-spacing: .02rem; }
+
+span.small-header-emoji { font-size: 1.2rem; position: relative; top: -1rem; }
+
+
+/* Skellington overwrites
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html { font-size: 100%; }
+body { font-size: 1.4em; }
+
+h1 { font-size: 3.7rem; line-height: 1;  letter-spacing: -.05rem; }
+h2 { font-size: 2.8rem; line-height: 1.2;  letter-spacing: -.05rem; }
+h3 { font-size: 1.4rem; line-height: 1.2;  letter-spacing: 0rem; font-weight: bold; }
+
+a { text-decoration: none; }
+li { list-style-type: none; }
+
+.container {
+  margin: 0 10%;
+  max-width: 650px; }
+
+.row {
+  padding: 15% 0; }
+
+
