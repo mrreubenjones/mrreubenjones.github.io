@@ -1,7 +1,14 @@
 /* Custom
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
+.project-image {
+  display: none;
+  position: relative;
+  margin-left: -300px;
+  background: #f8f8f8;
+  width: 200px;
+  height: 200px;
+}
 
 .aside { font-size: .9rem; letter-spacing: .02rem; }
 
@@ -22,11 +29,12 @@ a { text-decoration: none; }
 li { list-style-type: none; }
 
 .container {
-  margin: 0 10%;
+  /*margin: 0 0 0 10%;*/
   max-width: 650px;
 }
 
 .row {
-  padding: 15% 0; }
+  padding: 15% 0;
+}
 
 
