@@ -10,9 +10,27 @@
   height: 200px;
 }
 
-.aside { font-size: .9rem; letter-spacing: .02rem; }
+.aside {
+  font-size: .9rem;
+  letter-spacing: .02rem;
+}
 
-span.small-header-emoji { font-size: 1.2rem; position: relative; top: -1rem; }
+span.small-header-emoji {
+  font-size: 1.2rem;
+  position: relative;
+  top: -1rem;
+}
+
+#internets nav a {
+  margin-right: 30px;
+}
+
+#internets nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 
 /* Skellington overwrites
@@ -29,12 +47,13 @@ a { text-decoration: none; }
 li { list-style-type: none; }
 
 .container {
-  /*margin: 0 0 0 10%;*/
+  margin: 0;
   max-width: 650px;
+  padding-bottom: 400px;
 }
 
 .row {
-  padding: 15% 0;
+  padding: 10% 0 30% 10%;
 }
 
 
